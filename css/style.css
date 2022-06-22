@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+/* Header */
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(23, 23, 36);
+    background: url(../images/Photo.png);
+}
+header h1{
+    color: white;
+
+}
+
+/* End of header */
+
+/* Styles for Home section */
+#home {
+background: url(../images/BG.png),url(../images/Photo.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+ }
+ 
+ #home h2 {
+    font-weight: lighter;
+    font-size: 52px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    line-height: 0.2;
+    margin-right: 100px;
+ }
+ 
+ #home h1 {
+    color: #ED1F34;
+    font-size: 120px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    
+ }
+ .btn a{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 23px 28px;
+    width: 200px;
+    height: 72px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    
+   
+    
+}
+.btn-brand{
+    background-color:hidden;
+    border-color:white ;
+   font-size: 30px;
+   width: max-content;
+   font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+   
+}
+.btn-brand:hover{
+   background-color: #e0cdcd2c;
+}
+
+
+
+
+/* End of Styling home section */
+
+/* Styles of About */
+#about, .container {
+    position: relative;
+}
+
+#about .container:after {
+    margin: 3rem;
+    content: "ABOUT";
+    position: absolute;
+    color: rgba(187, 182, 182);
+    top: 0;
+    left: 0;
+    z-index:-1;
+    font-size: 120px;
+    white-space: nowrap;
+    opacity: 0.3;
+
+}
+#about,.container .row p h3
+{
+    margin-top: 100px;
+}
+#about, .container .row p{
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+#about .container .row{
+    display: flex;
+    align-items: center;
+}
+.btn-1 a{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 23px 28px;
+    width: 200px;
+    height: 72px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    
+   
+    
+}
+.btn-brand-1{
+   
+   
+   font-size: 30px;
+  
+   font-family: 'Bebas Neue', cursive;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+   
+   
+}
+.btn-brand:hover{
+   background-color: #e0cdcd2c;
+}
+
+
+#about .container .row .img-text p{
+    text-align: end;
+    color:#ED1F34 ;
+    font-size: 75px;
+    font-family: 'Bebas Neue', cursive;
+   position: relative;
+   bottom: 140px;
+   right: 100px;
+   white-space: nowrap;
+    
+}
+/* End of Styling about */
+
+
+
+/* News */
+#news{
+    background:linear-gradient(rgb(32, 33, 34, 0.8), rgb(32, 33, 34, 0.8)),url(../images/news.png);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    
+    
+ }
+ #news .container .row h1{
+    color: #ED1F34;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    word-spacing: 2px;
+ }
+/* End Of news */
+
+#portfolio img{
+    height: 300px;
+    width:100%;
+}
+
+
+/* Hire Us Style */
+#hire{
+    background:linear-gradient(rgb(32, 33, 34, 0.8), rgb(32, 33, 34, 0.8)),url(../images/Photo.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#hire h1{
+    font-size: 75px;
+    font-family:'Bebas Neue', cursive ;
+}
+#hire p{
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+}
+/* End of hire us */
